@@ -1,4 +1,5 @@
 # CV
-![Maxim Filonov CV_page-0001 (2)](https://user-images.githubusercontent.com/53992153/174398436-89f32c1b-1c7e-4b25-a616-d5053b19e683.jpg)
+![Maxim Filonov CV](https://user-images.githubusercontent.com/53992153/175977609-d6c8d8e4-cc1d-4eb8-8b5f-e5df0f7d5fc2.jpg)
+
 
 
