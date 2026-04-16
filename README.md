@@ -1,2 +1,2 @@
 # CV
-![CV preview](dist/cv-eng.png)
+![CV preview](https://sl1depengwyn.github.io/cv/cv-eng.png)
