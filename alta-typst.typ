@@ -201,6 +201,7 @@
     set page(
       margin: (x: 54pt, y: 52pt),
     )
+    set list(spacing: 9pt)
 
     show heading.where(
       level: 2,
