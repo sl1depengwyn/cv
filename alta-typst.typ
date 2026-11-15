@@ -1,8 +1,8 @@
 #let primary_colour = rgb("#3E0C87") // vivid purple
 #let link_colour = rgb("#12348e") // blue
 
-// polyfill, as of Typst 0.14.0 target() only works when compiling with --features html
-// and you can't set --features html on typst.app
+// Support older Typst versions where target() is HTML-feature-gated.
+// Like std.target(), this helper must be called from context.
 #let target() = {
   if "target" in dictionary(std) { std.target() } else { "paged" }
 }
@@ -162,7 +162,7 @@
   links: (),
   tagline: [],
   content,
-) = {
+) = context {
   set document(
     title: name + "'s CV",
     author: name,
