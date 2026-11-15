@@ -12,16 +12,23 @@
   [
     == Experience
 
+    === Backend Engineer \
+    #name[#styled-link("https://courses.sirius.ru/")[Sirius.Courses]]
+    #term[Sep 2026 --- Ongoing][Remote]
+
+    - Developed a~Haskell/PostgreSQL website-builder backend supporting site creation and duplication, with configurable subdomains and languages
+
     === Backend Engineer (Part-time) \
     #name[#styled-link("https://realy.io")[Realy]]
     #term[Feb 2026 --- Ongoing][Remote]
 
-    - Maintain two Elixir/Phoenix applications: a~real-time chat service and a~push notification service
-    - Contribute fixes and improvements to~a~Ruby~on~Rails codebase
+    - Built a~Python AI assistant, integrating Elixir chat over streaming gRPC with Rails-backed tools for group meeting planning and recommendations
+    - Improved Elixir/Phoenix chat synchronization and query efficiency through cross-device WebSocket updates and optimized unread-count queries
+    - Set up Kamal deployments, centralized logging and error tracking for chat and push-notification services, plus Prometheus metrics for chat
 
     === Backend Developer \
     #name[#styled-link("https://www.blockscout.com")[Blockscout]]
-    #term[Nov 2022 --- Ongoing][Remote]
+    #term[Nov 2022 --- May 2026][Remote]
 
     - Built Ethereum Beacon Deposits feature, including an~Elixir library integrating a~Rust cryptography library~via~NIFs
     - Designed and implemented advanced filters from the ground up --- a~complex feature requiring significant database optimization and query engineering
@@ -29,6 +36,8 @@
     - Migrated 200k+ users from 50+ Blockscout instances across several Auth0 tenants into a~single self-hosted Keycloak realm
     - Integrated distributed Erlang inter-pod communication, researching and configuring Helm charts for Erlang clustering in Kubernetes
     - Created reusable cursor-based pagination tooling, now the standard pattern across the codebase, eliminating a~class of recurring edge-case bugs
+
+    #colbreak()
 
     == Education
 
@@ -43,8 +52,6 @@
     === Functional Programming in Haskell \
     #name[#styled-link("https://stepik.org/cert/1300983")[Computer Science Center / Stepik]]
     #period[2021]
-
-    #colbreak()
 
     == Technologies
 
@@ -63,7 +70,6 @@
     C++ backend with a~Qt interface controlling a~robot via~parallel cable drive. Handled real-time coordinate computation and motor synchronization.
 
     #image("assets/cube.jpg", width: 65%, alt: "Robot diagram")
-    #v(43pt)
 
     == Achievements
 
